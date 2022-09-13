@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .PRINCIPAL {
+            display: flex;
+            border: 1px solid;
+            background-color: black;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .PRINCIPAL * {
+            background-color: white;
+            border: 4px solid rgb(13, 13, 204);
+            grid-gap: 15px;
+            padding: 10px;
+
+        }
+
+        .primero {
+            display: flex;
+            border: 1px solid;
+            background-color: black;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-basis: 700px;
+            flex-direction: row;
+            margin-top: 80px;
+            margin-left: 25px;
+        }
+
+        .primero * {
+            background-color: rgba(10, 4, 179, 0.537);
+
+            border: 4px solid rgb(0, 26, 255);
+            padding: 10px;
+        }
+
+        .segundo {
+            display: flex;
+            border: 1px solid;
+            background-color: black;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-basis: 700px;
+            flex-direction: row;
+            margin-top: 80px;
+            text-align: center;
+            gap: 30%;
+
+        }
+
+        .segundo * {
+            padding: 10px;
+            background-color: rgba(171, 32, 0, 0.537);
+            border: 4px solid rgb(255, 0, 0);
+            row-gap: 5px;
+        }
+
+        .tercero {
+            display: flex;
+            border: 1px solid;
+            background-color: rgb(0, 0, 0);
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-basis: 700px;
+            flex-direction: column;
+            flex-direction: 500px;
+            text-align: center;
+            margin-top: 110px;
+            grid-gap: 15px;
+            margin-left: 25px;
+
+        }
+
+        .tercero * {
+            padding: 10px;
+            background-color: rgba(171, 32, 0, 0.537);
+            border: 4px solid rgb(255, 0, 0);
+        }
+
+        .cuarto {
+            display: flex;
+            border: 1px solid;
+            background-color: rgb(0, 0, 0);
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+            flex-basis: 700px;
+            text-align: center;
+            margin-top: 110px;
+            grid-gap: 15px;
+            flex-direction: column-reverse;
+        }
+
+        .cuarto * {
+            padding: 10px;
+            background-color: rgba(10, 4, 179, 0.537);
+            border: 4px solid rgb(0, 26, 255);
+
+        }
+        @media screen and (max-width: 1200px){
+            .cuarto *{
+            background-color: rgba(3, 116, 135, 0.995);
+            border: 4px solid rgb(33, 236, 229);
+
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="PRINCIPAL">
+        <div class="primero">
+            <div class="uno">1</div>
+            <div class="dos">2</div>
+            <div class="tres">3</div>
+            <div class="cuatro">4</div>
+            <div class="cinco">5</div>
+            <div class="seis">6</div>
+            <div class="siete">7</div>
+        </div>
+
+
+
+
+        <div class="segundo">
+            <div class="div1"style="order: 1;">1</div>
+            <div class="div2"style="order: 6;">2</div>
+            <div class="div3"style="order: 0;">3</div>
+            <div class="div4"style="order: 2;">4</div>
+            <div class="div5"style="order: 4;">5</div>
+            <div class="div6"style="order: 3;">6</div>
+        </div>
+
+        <div class="tercero">
+            <div class="it1">1</div>
+            <div class="it2">2</div>
+            <div class="it3">3</div>
+            <div class="it4">4</div>
+            <div class="it5">5</div>
+            <div class="it6">6</div>
+            <div class="it7">7</div>
+            <div class="it8">8</div>
+        </div>
+
+        <div class="cuarto">
+            <div class="ite1">1</div>
+            <div class="ite2">2</div>
+            <div class="ite3">3</div>
+            <div class="ite4">4</div>
+            <div class="ite5">5</div>
+            <div class="ite6">6</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
